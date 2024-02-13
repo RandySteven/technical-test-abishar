@@ -14,8 +14,8 @@ class SeleniumAssignment:
         password_field = self.driver.find_element(By.ID, "password")
         login_button = self.driver.find_element(By.ID, "login-button")
 
-        user_name.send_keys(username)
-        password_field.send_keys(password)
+        user_name.send_keys(user_name)
+        password_field.send_keys(password_field)
         login_button.click()
 
     def add_items_to_cart(self):
